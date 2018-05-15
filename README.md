@@ -1,2 +1,2 @@
 # kift
-Voice control system
+Voice control system in C using CMUSphinx
