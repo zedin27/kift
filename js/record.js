@@ -25,6 +25,20 @@ function newFile() {
 function startRecord() {
 	var file = newFile();
 	var fileRecord = fs.createWriteStream(file, { encoding: 'binary' });
-	record.start({ sampleRate: 16000, verbose: true }).pipe(fileRecord);
+	record.start({ sampleRate: 16000, verbose: true }).on('close', resetMessage).pipe(fileRecord);
+	return ;
+}
+
+// Show a message.
+function showMessage()
+{
+	document.getElementById("message").innerHTML = "I'm listening... 🦇";
+	return ;
+}
+
+// Reset a message.
+function resetMessage()
+{
+	document.getElementById("message").innerHTML = "";
 	return ;
 }
