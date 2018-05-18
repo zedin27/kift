@@ -1,0 +1,32 @@
+{
+  "name": "kift",
+  "version": "0.0.1",
+  "description": "Front-end used for voice recognition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node js/record.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zedin27/kift.git"
+  },
+  "keywords": [
+    "voice",
+    "recognition",
+    "asistant",
+    "kift",
+    "42",
+    "silicon",
+    "valley"
+  ],
+  "author": "ztisnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zedin27/kift/issues"
+  },
+  "homepage": "https://github.com/zedin27/kift#readme",
+  "dependencies": {
+    "node-record-lpcm16": "^0.3.0"
+  }
+}
