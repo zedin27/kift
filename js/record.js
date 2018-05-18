@@ -28,5 +28,3 @@ function startRecord() {
 	record.start({ sampleRate: 16000, verbose: true }).pipe(fileRecord);
 	return ;
 }
-
-startRecord();

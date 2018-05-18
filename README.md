@@ -8,9 +8,14 @@ Voice control system in C using CMUSphinx
 
 - `brew install sox`
 
-## dependencies
+## Dependencies
 
 - [node-record-lpcm16](https://github.com/gillesdemey/node-record-lpcm16)
+- [electron](https://github.com/electron/electron)
+
+## Tools
+
+...
 
 ## Authors
 

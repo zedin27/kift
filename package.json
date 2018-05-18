@@ -2,10 +2,11 @@
   "name": "kift",
   "version": "0.0.1",
   "description": "Front-end used for voice recognition",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node js/record.js"
+    "record": "node js/record.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,10 @@
   },
   "homepage": "https://github.com/zedin27/kift#readme",
   "dependencies": {
-    "node-record-lpcm16": "^0.3.0"
+    "node-record-lpcm16": "^0.3.0",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "electron": "^2.0.1"
   }
 }
