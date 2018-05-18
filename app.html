@@ -8,17 +8,21 @@
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
+		<!-- Title -->
 		<h1 class="text-center">KIFT</h1>
+		<!-- PlayButton -->
 		<div class="container text-center">
 			<button type="button" onclick="showMessage(); startRecord();" class="btn btn-default btn-lg">
 				<span class="align-middle">Press here to talk</span>
 			</button>
 		</div>
+		<!-- RecordMessage -->
 		<div id="message" class="container text-center"></div>
+		<!-- Script call -->
 		<script src="js/record.js" charset="utf-8"></script>
+		<!-- API optional requirement -->
 		<script>
 			require('./renderer.js')
-			require('./js/record.js')
 		</script>
 	</body>
 </html>
