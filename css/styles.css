@@ -1,0 +1,16 @@
+.round-button {
+	background-color: #fffbe8;
+	text-align: center;
+	border-radius: 80%;
+	display: inline-block;
+	width: 230px;
+	vertical-align: top;
+	background-image: url(/img/recording-svg);
+	font-size: 20px;
+}
+
+.output-message {
+	font-size: 2.5rem;
+	position: static;
+	padding-top: 50px;
+}
