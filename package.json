@@ -19,7 +19,8 @@
     "kift",
     "42",
     "silicon",
-    "valley"
+    "valley",
+	"kift"
   ],
   "author": "ztisnes",
   "license": "MIT",
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/zedin27/kift#readme",
   "dependencies": {
+    "cmake-js": "^3.7.3",
     "node-record-lpcm16": "^0.3.0",
     "uniq": "^1.0.1"
   },
