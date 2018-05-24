@@ -18,6 +18,7 @@ Voice control system in C using CMUSphinx.
 ## Tools
 
 * [PocketSphinx API Documentation](https://cmusphinx.github.io/doc/pocketsphinx/index.html#intro_sec)
+* [Sphinx Knowledge Base Tool](http://www.speech.cs.cmu.edu/tools/lmtool-new.html)
 
 ## Authors
 
@@ -28,6 +29,7 @@ Voice control system in C using CMUSphinx.
 
 ## Resources
 * [modeldir stuff](https://cmusphinx.github.io/wiki/tutorialpocketsphinx/)
+* []()
 
 
 ## License
