@@ -4,6 +4,10 @@
 
 Voice control system in C using CMUSphinx.
 
+## TODO
+
+- Research about sockets
+
 ## Required Modules
 
 - `brew install sox`
